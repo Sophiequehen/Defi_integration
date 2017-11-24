@@ -1,0 +1,19 @@
+#language-selector{
+	position: absolute;
+	margin-left:10%
+}
+#p.example{
+    position: absolute;
+    margin-left:30%;
+}
+#h3{
+	position: absolute;
+	margin-left: auto;
+	
+}
+h3{
+   color: grey;
+}
+p.example{
+	color: grey;
+}
