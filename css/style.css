@@ -1,15 +1,45 @@
 * {
   font-family: 'Montserrat', sans-serif;
   color: #484848;
+  margin: 0 auto;
+  padding: 0;
 }
 
+body {
+  width: 100%
+}
 
+.container {
+  width: 60%;
+}
 /*--------------------------HEADER-----------------------------------------*/
 
+#nav {
+  display: block;
+  height: 80px;
+}
 
+img {
+  width: 34px;
+  height: 34px;
+}
 
+nav {
+  display: block;
+  float: right;
+  height: 80px;
+}
+
+h1 {
+  font-weight: 700;
+  color: #FF5A5F;
+}
 /*--------------------------EXPERIENCE-----------------------------------------*/
-
+.section {
+  width: 100%;
+  background-color: #CCC;
+  margin-top: 20px;
+}
 
 
 
