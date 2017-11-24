@@ -16,6 +16,48 @@
 /*--------------------------EXPLORER AIRBNB ET DESTINATION À LA UNE----------------*/
 
 
+.explovignette 
+{
+	position: absolute;
+	height: 74px ; 
+	width: 246px ; 
+	border-radius: 5px;
+	background-color: grey; 
+}
+
+#explo1
+{
+margin-right: %;
+margin-left: %;
+}
+
+#explo2
+{
+margin-right: 20%;
+margin-left:20% ;
+}
+
+#explo3
+{
+margin-right: 40%;
+margin-left: 40%;
+
+}
+
+.explovignimg {
+	width: 92px;
+	height: 73px;
+	background-color: red;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.explovigntxt
+{
+	background-color:;
+	text-align: center; 
+	width: 127px;
+	height: 72px;
+}
 
 
 /*--------------------------FOOTER-----------------------------------------*/
