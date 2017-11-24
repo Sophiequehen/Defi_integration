@@ -1,49 +1,87 @@
 * {
   font-family: 'Montserrat', sans-serif;
   color: #484848;
+  margin: O auto;
 }
 
+body {
+  width: 100%
+}
 
+.container {
+  width: 89.88%;
+}
+
+.section {
+  clear: both; 
+  background-color: #CCC;
+  margin-top: 20px;
+}
 /*--------------------------HEADER-----------------------------------------*/
-.h2exp{
-	margin-top: 46%;
-	margin-left: 10.12%;
-	position: absolute;
+
+#nav {
+  display: block;
+  height: 80px;
 }
 
-#plus{
-	position: absolute;
-	margin-top: 47%;
-	margin-left: 85%;
+#logo {
+  width: 34px;
+  height: 34px;
+}
+
+nav {
+  display: block;
+  float: right;
+  height: 80px;
+}
+
+h1 {
+  font-weight: 700;
+  color: #FF5A5F;
+}
+/*--------------------------EXPERIENCE-----------------------------------------*/
+
+#section2{
+  position: relative;
+
 }
 
 .img_exp{
-	position: absolute;
-	margin-top: 50%;
-	width:246px;
-	height: 164px;
+  float: left;
+  width:246px;
+  height: 164px;
 }
 
+
+
+/*.h2exp{
+  margin-top: 46%;
+  margin-left: 10.12%;
+  /*position: absolute;
+}
+
+#plus{
+ /*position: absolute;
+  margin-top: 47%;
+  margin-left: 85%;
+}
+
+
+
 #img1{
-	margin-left: 10.12%;
+  margin-left: 10.12%;
 }
 
 #img2{
-	margin-left: 30%;
+  margin-left: 30%;
 }
 
 #img3{
-	margin-left: 50%;
+  margin-left: 50%;
 }
 
 #img4{
-	margin-left: 70%;
-}
-
-/*--------------------------EXPERIENCE-----------------------------------------*/
-
-
-
+  margin-left: 70%;
 
 
 /*--------------------------EXPLORER AIRBNB ET DESTINATION À LA UNE----------------*/
