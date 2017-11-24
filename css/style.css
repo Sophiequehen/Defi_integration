@@ -1,7 +1,8 @@
 * {
+/*  margin: 0 auto;
+  padding: 0;*/
   font-family: 'Montserrat', sans-serif;
   color: #484848;
-  margin: O auto;
 }
 
 body {
@@ -13,10 +14,13 @@ body {
 }
 
 .section {
-  clear: both; 
   background-color: #CCC;
-  margin-top: 20px;
+  margin-top: 50px;
+  position: relative;
+  clear: both;
+  height: auto;
 }
+
 /*--------------------------HEADER-----------------------------------------*/
 
 #nav {
@@ -41,18 +45,24 @@ h1 {
 }
 /*--------------------------EXPERIENCE-----------------------------------------*/
 
-#section2{
-  position: relative;
+/*#section2 {
+  position: relative;*/
+}
+/*
+.vignette {
 
 }
-
-.img_exp{
-  float: left;
+.img_exp {
   width:246px;
   height: 164px;
+  float: left;
 }
+*/
 
-
+/*#plus{
+  margin-top: 47%;
+  margin-left: 85%;
+}*/
 
 /*.h2exp{
   margin-top: 46%;
@@ -60,11 +70,7 @@ h1 {
   /*position: absolute;
 }
 
-#plus{
- /*position: absolute;
-  margin-top: 47%;
-  margin-left: 85%;
-}
+
 
 
 
@@ -87,13 +93,13 @@ h1 {
 /*--------------------------EXPLORER AIRBNB ET DESTINATION À LA UNE----------------*/
 
 
-.explovignette 
+.explovignette
 {
 	position: absolute;
-	height: 74px ; 
-	width: 246px ; 
+	height: 74px ;
+	width: 246px ;
 	border-radius: 5px;
-	background-color: grey; 
+	background-color: grey;
 }
 
 #explo1
@@ -125,7 +131,7 @@ margin-left: 40%;
 .explovigntxt
 {
 	background-color:;
-	text-align: center; 
+	text-align: center;
 	width: 127px;
 	height: 72px;
 }
@@ -143,7 +149,7 @@ margin-left: 40%;
 #h3{
   position: absolute;
   margin-left: auto;
-  
+
 }
 h3{
    color: grey;
