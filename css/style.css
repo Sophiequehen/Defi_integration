@@ -1,0 +1,163 @@
+* {
+/*  margin: 0 auto;
+  padding: 0;*/
+  font-family: 'Montserrat', sans-serif;
+  color: #484848;
+}
+
+body {
+  width: 100%
+}
+
+.container {
+  width: 89.88%;
+}
+
+.section {
+  background-color: #CCC;
+  margin-top: 50px;
+  position: relative;
+  clear: both;
+  height: auto;
+}
+
+/*--------------------------HEADER-----------------------------------------*/
+
+#nav {
+  display: block;
+  height: 80px;
+}
+
+#logo {
+  width: 34px;
+  height: 34px;
+}
+
+nav {
+  display: block;
+  float: right;
+  height: 80px;
+}
+
+h1 {
+  font-weight: 700;
+  color: #FF5A5F;
+}
+/*--------------------------EXPERIENCE-----------------------------------------*/
+
+/*#section2 {
+  position: relative;*/
+}
+/*
+.vignette {
+
+}
+.img_exp {
+  width:246px;
+  height: 164px;
+  float: left;
+}
+*/
+
+/*#plus{
+  margin-top: 47%;
+  margin-left: 85%;
+}*/
+
+/*.h2exp{
+  margin-top: 46%;
+  margin-left: 10.12%;
+  /*position: absolute;
+}
+
+
+
+
+
+#imgexp1{
+  margin-left: 10.12%;
+}
+
+#imgexp2{
+  margin-left: 30%;
+}
+
+#imgexp3{
+  margin-left: 50%;
+}
+
+#imgexp4{
+  margin-left: 70%;
+
+
+/*--------------------------EXPLORER AIRBNB ET DESTINATION À LA UNE----------------*/
+
+
+.explovignette
+{
+
+	position: absolute;
+	height: 74px ;
+	width: 246px ;
+	border-radius: 5px;
+  border: 2px solid darkgrey;
+
+}
+
+#explo1
+{
+margin-right: %;
+margin-left: %;
+}
+
+#explo2
+{
+margin-right: 20%;
+margin-left:20% ;
+}
+
+#explo3
+{
+margin-right: 40%;
+margin-left: 40%;
+
+}
+
+.explovignimg {
+  float:left;
+	width: 92px;
+	height: 75px;
+	background-color: red;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+  }
+.explovigntxt
+{
+
+  float: right;
+	background-color:;
+	width: 127px;
+	height: 72px;
+  margin-top: 27px;
+  margin-right: 5px;
+  font-weight: bolder;
+}
+
+
+/*--------------------------FOOTER-----------------------------------------*/
+#language-selector{
+  position: absolute;
+  margin-left:10%
+}
+#p.example{
+    position: absolute;
+    margin-left:30%;
+}
+#h3{
+  position: absolute;
+  margin-left: auto;
+
+}
+h3{
+   color: grey;
+}
