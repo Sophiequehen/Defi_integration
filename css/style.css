@@ -9,7 +9,8 @@ body {
 }
 
 .container {
-  width: 89.88%;
+ width: 89%;
+ margin: auto;
 }
 
 .section {
@@ -42,47 +43,45 @@ h1 {
 /*--------------------------EXPERIENCE-----------------------------------------*/
 
 #section2{
-  position: relative;
-
+  width: 1032px;
+  height: 337.517px;
+  margin: auto;
 }
 
-.img_exp{
-  float: left;
+.entete{
+  display: flex;
+  justify-content: space-between;
+}
+
+.viexp{
+  display: flex;
+  justify-content: space-between;
+}
+
+.img_exp{ 
+  display: flex;
   width:246px;
   height: 164px;
+  border-radius: 5px;
 }
 
-
-
-/*.h2exp{
-  margin-top: 46%;
-  margin-left: 10.12%;
-  /*position: absolute;
+.bordeaux{
+  color: rgb(186, 114, 59);
+  font-weight: bold;
+  font-size: 70%;
 }
 
-#plus{
- /*position: absolute;
-  margin-top: 47%;
-  margin-left: 85%;
+.titreexp{
+  margin-top: -1%;
+  font-weight: bold;
+  font-size: 100%;
 }
 
-
-
-#imgexp1{
-  margin-left: 10.12%;
+.prixexp{
+  margin-top: -5%;
+  font-weight: bold;
+  font-size: 80%;
 }
-
-#imgexp2{
-  margin-left: 30%;
-}
-
-#imgexp3{
-  margin-left: 50%;
-}
-
-#imgexp4{
-  margin-left: 70%;
-
 
 /*--------------------------EXPLORER AIRBNB ET DESTINATION À LA UNE----------------*/
 
