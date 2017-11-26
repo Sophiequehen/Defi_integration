@@ -28,10 +28,13 @@ body {
   height: 80px;
 }
 
-#logo {
-  width: 34px;
-  height: 34px;
-}
+svg {
+height: 1em;
+width: 1em;
+display: block;
+fill: currentColor;
+color: #FF5A5F;
+font-size: 34px;}
 
 nav {
   display: block;
