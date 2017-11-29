@@ -35,7 +35,7 @@
 <!--------------------------EXPERIENCE------------------------------------------>
 
 <div class="container">
-<section class="section" id="section1">Explorer Airbnb</section>
+<section class="section" id="section1">Explorer Airbnb <?php afficherheure(); ?></section>
 
 
 
@@ -107,17 +107,64 @@
 </article>
 <!--------------------------FOOTER------------------------------------------>
 <footer class="footer">Footer</footer>
+<hr/>
+<br>
+<br><h5>
+  <p30>Airbnb Découvrir Hébergement</p30>
+<br>
+ <select name="language">
+<option value="Francais">Francais</option>
+  <option value="Anglais">Anglais</option>
+<option value="Espagnole">Espagnole</option>
+  <option value="Italien">Italien</option>
+</select></form><form>
+  <select name="language">
+<option value="Euro">Euro</option>
+  <option value="Dollar">Dollar</option>
+<option value="Livre sterling">Livre sterling</option>
+  <option value="Bitcoin">Bitcoin</option>
+</select>
+  </form>
+    <h6>
+<a href="">A propos d'Airbnb</a><br><br>
+<a href="">Carrières</a><br><br>
+<a href="">Presse</a><br><br>
+<a href="">Règles</a><br><br>
+<a href="">Aide</a><br><br>
+<a href="">Diversité et<br>intégration</a></h6>
 
-<hr/ color="grey" width="1200px">
-  <br/>
-  <br/>
-        <select id="language-selector" class="4nlkxxs" name="language-selector"></select>
-   
-    <br/>
-    <br/> 
-     <select id="language-selector" class="4nlkxxs" name="language-selector"></select> 
-          <h3>
-  <div text align="center">Airbnb</div>
+
+
+
+
+<hr/>
+
+
+<?php print("Un truc de ouf");?>
+<?php
+        ini_set('display_errors',1);
+        ini_set('log_errors',1);
+        
+
+//Step1
+ $db = mysqli_connect('localhost','root','cartoon','airbnb')
+ or die('Error connecting to MySQL server.');
+
+//Step2
+$query = "SELECT * FROM ville";
+$result = mysqli_query($db, $query);
+
+while($rep = mysqli_fetch_assoc($result)) {
+
+ print $rep["nom ville"];
+
+};
+
+afficherheure();
+
+function afficherheure() {
+  print date ('h:i');
+}
+?>
 </body>
 </html>
-
