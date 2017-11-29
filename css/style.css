@@ -1,23 +1,6 @@
 <<<<<<< HEAD
-#language-selector{
-	position: absolute;
-	margin-left:10%
-}
-#p.example{
-    position: absolute;
-    margin-left:30%;
-}
-#h3{
-	position: absolute;
-	margin-left: auto;
-	
-}
-h3{
-   color: grey;
-}
-p.example{
-	color: grey;
-}
+
+
 =======
 * {
   font-family: 'Montserrat', sans-serif;
@@ -153,4 +136,36 @@ margin-left: 40%;
 
 
 /*--------------------------FOOTER-----------------------------------------*/
->>>>>>> e60880043deec142c9fe0d784350a5bae75b0cf5
+hr/{
+  color: grey;
+  width: 900px;
+  border:4px;
+}
+select{
+  width: 190px;
+  height:40px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+h4{
+  font-family: 'Montserrat', sans-serif;
+  color: dimgray;
+  margin-bottom: -100px;
+}
+p30{
+  width:200px;
+  margin-left: 300px;
+  word-spacing: 150px;
+  margin-bottom: -200px;
+}
+h5{
+  margin-left: 300px;
+  font-family: 'Montserrat', sans-serif;
+  color: gray;
+  margin-bottom: 300px;
+}
+hr/{
+  color: grey;
+  width: 900px;
+  border:4px;
+}
