@@ -1,11 +1,9 @@
-<<<<<<< HEAD
 
-
-=======
 * {
+/*  margin: 0 auto;
+  padding: 0;*/
   font-family: 'Montserrat', sans-serif;
   color: #484848;
-  margin: O auto;
 }
 
 body {
@@ -13,14 +11,18 @@ body {
 }
 
 .container {
-  width: 89.88%;
+ width: 89%;
+ margin: auto;
 }
 
 .section {
-  clear: both; 
   background-color: #CCC;
-  margin-top: 20px;
+  margin-top: 50px;
+  position: relative;
+  clear: both;
+  height: auto;
 }
+
 /*--------------------------HEADER-----------------------------------------*/
 
 #nav {
@@ -28,10 +30,13 @@ body {
   height: 80px;
 }
 
-#logo {
-  width: 34px;
-  height: 34px;
-}
+svg#logo {
+height: 1em;
+width: 1em;
+display: block;
+fill: currentColor;
+color: #FF5A5F;
+font-size: 34px;}
 
 nav {
   display: block;
@@ -45,97 +50,123 @@ h1 {
 }
 /*--------------------------EXPERIENCE-----------------------------------------*/
 
+
 #section2{
-  position: relative;
+  width: 1032px;
+  height: 337.517px;
+  margin: auto;
 
 }
 
-.img_exp{
-  float: left;
+
+.entete{
+  display: flex;
+  justify-content: space-between;
+
+}
+.img_exp {
   width:246px;
   height: 164px;
+  float: left;
 }
 
 
-
-/*.h2exp{
-  margin-top: 46%;
-  margin-left: 10.12%;
-  /*position: absolute;
+.viexp{
+  display: flex;
+  justify-content: space-between;
 }
 
-#plus{
- /*position: absolute;
-  margin-top: 47%;
-  margin-left: 85%;
+.img_exp{ 
+  display: flex;
+  width:246px;
+  height: 164px;
+  border-radius: 5px;
 }
 
-
-
-#img1{
-  margin-left: 10.12%;
+.bordeaux{
+  color: rgb(186, 114, 59);
+  font-weight: bold;
+  font-size: 70%;
 }
 
-#img2{
-  margin-left: 30%;
+.titreexp{
+  margin-top: -1%;
+  font-weight: bold;
+  font-size: 100%;
 }
 
-#img3{
-  margin-left: 50%;
+.prixexp{
+  margin-top: -5%;
+  font-weight: bold;
+  font-size: 80%;
 }
-
-#img4{
-  margin-left: 70%;
-
 
 /*--------------------------EXPLORER AIRBNB ET DESTINATION À LA UNE----------------*/
 
-
-.explovignette 
-{
-	position: absolute;
-	height: 74px ; 
-	width: 246px ; 
-	border-radius: 5px;
-	background-color: grey; 
+.explovi {
+  
 }
 
-#explo1
+.explovignette
 {
-margin-right: %;
-margin-left: %;
-}
 
-#explo2
-{
-margin-right: 20%;
-margin-left:20% ;
-}
 
-#explo3
-{
-margin-right: 40%;
-margin-left: 40%;
+height: 74px ;
+width: 246px ;
+background-color: transparent ;
+border: 1px solid rgba(0,0,0,0.1) ;
+border-radius: 3px ;
+box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.06) ;
+margin-bottom: 4px ;
+padding: 0px ;
+overflow: hidden ;
+text-align: left ;
+display:inline-block;
 
 }
 
 .explovignimg {
+  float:;
 	width: 92px;
-	height: 73px;
+	height: 75px;
 	background-color: red;
 	border-bottom-left-radius: 5px;
 	border-top-left-radius: 5px;
-}
+  }
 .explovigntxt
 {
-	background-color:;
-	text-align: center; 
-	width: 127px;
-	height: 72px;
+
+  position: relative;
+	background-color:red;
+  height: 72px;
+  margin-top: 27px;
+  margin-right: 5px;
+  font-weight: bolder;
+  display:inline-block;
+  background-color: red
+      
+
+
+
 }
+
+.explovigntxts
+{ 
+  display: inline-block;
+
+color: #484848;
+padding-left: 2px;
+vertical-align: middle;
+ ;
+}
+
+
+
+
 
 
 /*--------------------------FOOTER-----------------------------------------*/
+
 hr/{
   color: grey;
   width: 900px;
@@ -169,3 +200,4 @@ hr/{
   width: 900px;
   border:4px;
 }
+
