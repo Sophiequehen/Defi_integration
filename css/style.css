@@ -1,4 +1,3 @@
-
 * {
 /*  margin: 0 auto;
   padding: 0;*/
@@ -166,38 +165,19 @@ vertical-align: middle;
 
 
 /*--------------------------FOOTER-----------------------------------------*/
+#language-selector{
+  position: absolute;
+  margin-left:10%
+}
+#p.example{
+    position: absolute;
+    margin-left:30%;
+}
+#h3{
+  position: absolute;
+  margin-left: auto;
 
-hr/{
-  color: grey;
-  width: 900px;
-  border:4px;
 }
-select{
-  width: 190px;
-  height:40px;
-  margin-left: 15px;
-  margin-bottom: 20px;
+h3{
+   color: grey;
 }
-h4{
-  font-family: 'Montserrat', sans-serif;
-  color: dimgray;
-  margin-bottom: -100px;
-}
-p30{
-  width:200px;
-  margin-left: 300px;
-  word-spacing: 150px;
-  margin-bottom: -200px;
-}
-h5{
-  margin-left: 300px;
-  font-family: 'Montserrat', sans-serif;
-  color: gray;
-  margin-bottom: 300px;
-}
-hr/{
-  color: grey;
-  width: 900px;
-  border:4px;
-}
-
