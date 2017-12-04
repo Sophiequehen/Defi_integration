@@ -1,4 +1,4 @@
-header, footer {
+header,  {
 	background-color: grey;
 }
 
@@ -47,6 +47,7 @@ background-color: red;
 footer{
 	margin-left: 10%;
 	margin-right: 10%;
+
 	
 }
 
@@ -80,3 +81,10 @@ footer{
 	text-decoration: underline;
 }
 
+.footer * {
+	background-color: white;
+}
+
+.footer a {
+	color: grey;
+}
