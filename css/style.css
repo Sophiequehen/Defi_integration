@@ -17,7 +17,7 @@ background-color: red;
 	margin:10px;
 }
 
-.col { background-color: yellow; 
+.col { background-color: yellow;
 	margin:10px;
 }
 #logo{
@@ -34,7 +34,7 @@ background-color: red;
 }
 
 .list-group-item{
-	list-style-type: none; 
+	list-style-type: none;
 	background-color: transparent;
 	border: none;
 	color: black;
@@ -48,8 +48,6 @@ footer{
 	margin-left: 10%;
 	margin-right: 10%;
 
-	
-}
 
 .branding{
 	display: flex;
@@ -67,19 +65,20 @@ footer{
 	height: 1px;
 	background-color: grey;
 	margin-top: 2%;
-	margin-bottom: 2%; 
+	margin-bottom: 2%;
 }
 
 .nav-link svg {
 	height:1.4em;
 	width:1.4em;
-	display: block; 
+	display: block;
 	fill: rgb(118, 118, 118);
 }
 
 .navbar-nav a:hover{
 	text-decoration: underline;
 }
+
 
 .footer * {
 	background-color: white;
@@ -88,3 +87,4 @@ footer{
 .footer a {
 	color: grey;
 }
+
