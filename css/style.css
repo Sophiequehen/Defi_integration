@@ -24,3 +24,23 @@ background-color: red;
 	width:34px;
 	height:34px;
 }
+
+.center{
+	display: flex;
+	align-items: center;
+	width: 244px;
+	height: 48px;
+	margin: 11px;
+}
+
+.list-group-item{
+	list-style-type: none; 
+	text-decoration: none;
+	background-color: transparent;
+	border: none;
+}
+
+footer{
+	margin-left: 10%;
+	margin-right: 10%;
+}
