@@ -1,0 +1,26 @@
+header, footer {
+	background-color: grey;
+}
+
+section {
+	background-color: blue ;
+	margin: 10px;
+
+}
+.categorie {
+
+background-color: red;
+}
+
+.row {
+	background-color: pink;
+	margin:10px;
+}
+
+.col { background-color: yellow; 
+	margin:10px;
+}
+#logo{
+	width:34px;
+	height:34px;
+}
