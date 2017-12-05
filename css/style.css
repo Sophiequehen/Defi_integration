@@ -188,11 +188,28 @@ section {
 	color: #484848;
 	margin-top: -15px;
 }
-/*--------------------------------------------------------------------------
+/*-----------------------------début destination----------------------------
 */
 
+ .imagedest{
+ 	width: 450%;
+ }
+.imagedest1{
+	width: 450%;
+	margin-left: 300px;
+}	
+.imagedest2{
+	width:450%;
+	margin-left: 600px;
+}
+.imagedest3{
+	width: 450%;
+	margin-left: 900px;
+}	
 
 
+
+/*fin destination */
 
 /*FOOTER*/
 .menu_bottom .logo{
