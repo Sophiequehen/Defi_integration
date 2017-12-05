@@ -196,12 +196,20 @@ section {
 
 
 /*FOOTER*/
+
+.line{
+	width: 110%;
+	height: 1px;
+	background-color: grey;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
 .menu_bottom .logo{
 	width:34px;
 	height:34px;
 }
 
-.center{
+footer .center{
 	display: flex;
 	align-items: center;
 	width: 244px;
@@ -217,7 +225,7 @@ section {
 }
 
 .list-group-item a{
-	color: black;
+	color: grey;
 }
 
 footer{
@@ -226,40 +234,6 @@ footer{
 }
 
 
-.branding{
-	display: flex;
-	justify-content: flex-start;
-}
-
-.test{
-	background-color: red;
-	display: flex;
-	justify-content: flex-end;
-}
-
-.line{
-	width: 110%;
-	height: 1px;
-	background-color: grey;
-	margin-top: 2%;
-	margin-bottom: 2%;
-}
-.ui.menu.bottom {
-
-	border-top: 1px solid grey;
-}
-
-.item svg {
-	height:1.4em;
-	width:1.4em;
-	display: block;
-	fill: rgb(118, 118, 118);
-}
-
-.navbar-nav a:hover{
-	text-decoration: underline;
-}
-
 footer * {
 	background-color: transparent!important;
 }
@@ -267,3 +241,32 @@ footer * {
 footer a {
 	color: grey;
 }
+
+
+
+.ui.menu.bottom {
+
+	border-top: 1px solid grey;
+}
+
+footer .item svg {
+	height:1.4em;
+	width:1.4em;
+	display: block;
+	fill: rgb(118, 118, 118);
+}
+.ui.menu.menu_bottom a{
+	float: right ;
+
+}
+.ui.menu.menu_bottom a:hover{
+	text-decoration: underline;
+
+}
+
+.ui.menu.menu_bottom {
+	border: none;
+	box-shadow:none!important;
+}
+.ui.menu .item::before {
+	background:none !important;
