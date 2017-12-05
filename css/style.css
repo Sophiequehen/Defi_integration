@@ -1,11 +1,10 @@
 header  {
-	background-color: grey;
+	/*background-color: grey;*/
 	margin: 0 5px;
 }
 
 section {
-	background-color: blue ;
-
+	/*background-color: blue ;*/
 }
 
 .corps{
@@ -13,20 +12,53 @@ section {
 }
 
 .categorie {
-
-	background-color: red;
+	/*background-color: red;*/
 }
 
 .ui.grid {
-	background-color: pink;
-	margin:10px;
+	/*:background-color: pink;*/
+	margin:9px;
 }
 
 /*.column { background-color: yellow;
+}
+
+/*HEADER*/
+
+.header .logo {
+  height:34px;
+  width:34px;
+  display:block;
+  fill: #FF5A5F;
+	margin-left: -4px;
+}
+.header .right.menu {
+	text-align: right;
+	margin-top: 9px;
+	word-spacing: 6px;
+}
+
+.header .right.menu a {
+  color: #484848;
+  font-family: 'Roboto', sans-serif;
+  padding: 0 10px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-right: 1px;
+  margin-top: 3px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+}
+
+.header .right.menu a:hover {
+  color: #484848;
+  border-bottom: 2px solid rgb(118, 118, 118);
+  padding-bottom: 2px;
+  box-sizing: border-box;
 
 }
-/*HEADER*/
-.navbar {
+
+/*.navbar {
 	margin-top: 10px;
 	margin-left: 8px;
 }
@@ -53,29 +85,8 @@ section {
 	letter-spacing: 0.5px;
 }
 
-.navbar-nav a:hover {
-	box-sizing: border-box;
-	border-bottom: 2px solid rgb(118, 118, 118);
-	padding-bottom: 2px;
-}
 
-/* change the brand and text color */
-.navbar-custom .navbar-text {
-	color: #484848;
-}
-/* change the link color */
-.navbar-custom .navbar-nav .nav-link {
-	color: #484848;
-}
-/* change the color of active or hovered links */
-.navbar-custom .nav-link,
-.navbar-custom .nav-item:hover .nav-link {
-	color: #484848;
-}
 /*CORPS*/
-
-
-
 
 /* explorer */
 .ui.three.column.grid.explorer
@@ -130,7 +141,7 @@ section {
 	background-color: white !important;
 }
 
-.exp .column { 
+.exp .column {
 	margin: -10px;
 	background-color: white !important;
 
@@ -147,12 +158,12 @@ section {
 	margin-top: -30px;
 }
 
-.experience img{	
+.experience img{
 	width: 97%;
 	border-radius: 2%;
 }
 
-.experience .etoiles img{	
+.experience .etoiles img{
 	width: 25%;
 	margin-top: -10px;
 }
