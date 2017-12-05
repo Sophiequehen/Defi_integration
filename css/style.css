@@ -58,10 +58,7 @@ background-color: red;
   border-bottom: 2px solid rgb(118, 118, 118);
   padding-bottom: 2px;
 }
-img{
-weight:15em;
-height:15em;
-}
+
 /* change the brand and text color */
 .navbar-custom .navbar-text {
 color: #484848
