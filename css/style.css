@@ -1,4 +1,4 @@
-header,  {
+header  {
 	background-color: grey;
 }
 
@@ -68,8 +68,12 @@ footer{
 	margin-top: 2%;
 	margin-bottom: 2%;
 }
+.ui.menu.bottom {
 
-.nav-link svg {
+	border-top: 1px solid grey;
+}
+
+.item svg {
 	height:1.4em;
 	width:1.4em;
 	display: block;
@@ -82,10 +86,9 @@ footer{
 
 
 .footer * {
-	background-color: white;
+	background-color: transparent;
 }
 
 .footer a {
 	color: grey;
 }
-
