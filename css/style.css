@@ -12,12 +12,12 @@ section {
 background-color: red;
 }
 
-.row {
+.ui.grid {
 	background-color: pink;
 	margin:10px;
 }
 
-.col { background-color: yellow;
+.column { background-color: yellow;
 	margin:10px;
 }
 /*HEADER*/
@@ -135,7 +135,7 @@ footer{
 }
 
 footer * {
-	background-color: white;
+	background-color: transparent!important;
 }
 
 footer a {
