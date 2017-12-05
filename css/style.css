@@ -1,12 +1,17 @@
 header  {
 	background-color: grey;
+	margin: 0 5px;
 }
 
 section {
 	background-color: blue ;
-	margin: 10px;
 
 }
+
+.corps{
+	margin: 0 8%;
+}
+
 .categorie {
 
 background-color: red;
@@ -112,7 +117,7 @@ footer{
 }
 
 .line{
-	width: 100%;
+	width: 110%;
 	height: 1px;
 	background-color: grey;
 	margin-top: 2%;
