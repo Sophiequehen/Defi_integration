@@ -58,17 +58,26 @@ background-color: red;
   border-bottom: 2px solid rgb(118, 118, 118);
   padding-bottom: 2px;
 }
-
+img{
+weight:15em;
+height:15em;
+}
 /* change the brand and text color */
 .navbar-custom .navbar-text {
-  color: #484848;
+color: #484848
+
 }
 /* change the link color */
-.navbar-custom .navbar-nav .nav-link {
-  color: #484848;
+.navbar-custom .navbar-nav .nav-link{
+	 color: #484848;
 }
 /* change the color of active or hovered links */
-.navbar-custom .nav-link,
+.navbar-custom .nav-link{
+
+	 color: #484848;
+}
+
+
 .navbar-custom .nav-item:hover .nav-link {
   color: #484848;
 }
