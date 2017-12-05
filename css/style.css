@@ -1,11 +1,10 @@
 header  {
-	background-color: grey;
+	/*background-color: grey;*/
 	margin: 0 5px;
 }
 
 section {
-	background-color: blue ;
-
+	/*background-color: blue ;*/
 }
 
 .corps{
@@ -13,20 +12,53 @@ section {
 }
 
 .categorie {
-
-	background-color: red;
+	/*background-color: red;*/
 }
 
 .ui.grid {
-	background-color: pink;
-	margin:10px;
+	/*:background-color: pink;*/
+	margin:9px;
 }
 
 /*.column { background-color: yellow;
+}
+
+/*HEADER*/
+
+.header .logo {
+  height:34px;
+  width:34px;
+  display:block;
+  fill: #FF5A5F;
+	margin-left: -4px;
+}
+.header .right.menu {
+	text-align: right;
+	margin-top: 9px;
+	word-spacing: 6px;
+}
+
+.header .right.menu a {
+  color: #484848;
+  font-family: 'Roboto', sans-serif;
+  padding: 0 10px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-right: 1px;
+  margin-top: 3px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+}
+
+.header .right.menu a:hover {
+  color: #484848;
+  border-bottom: 2px solid rgb(118, 118, 118);
+  padding-bottom: 2px;
+  box-sizing: border-box;
 
 }
-/*HEADER*/
-.navbar {
+
+/*.navbar {
 	margin-top: 10px;
 	margin-left: 8px;
 }
@@ -53,29 +85,8 @@ section {
 	letter-spacing: 0.5px;
 }
 
-.navbar-nav a:hover {
-	box-sizing: border-box;
-	border-bottom: 2px solid rgb(118, 118, 118);
-	padding-bottom: 2px;
-}
 
-/* change the brand and text color */
-.navbar-custom .navbar-text {
-	color: #484848;
-}
-/* change the link color */
-.navbar-custom .navbar-nav .nav-link {
-	color: #484848;
-}
-/* change the color of active or hovered links */
-.navbar-custom .nav-link,
-.navbar-custom .nav-item:hover .nav-link {
-	color: #484848;
-}
 /*CORPS*/
-
-
-
 
 /* explorer */
 .ui.three.column.grid.explorer
@@ -120,6 +131,7 @@ section {
 	font-weight: 700 !important;
 	font-size: 17px !important;
 	line-height: 21px !important;
+
 }
 
 /* fin explorer */
@@ -129,7 +141,7 @@ section {
 	background-color: white !important;
 }
 
-.exp .column { 
+.exp .column {
 	margin: -10px;
 	background-color: white !important;
 
@@ -146,12 +158,12 @@ section {
 	margin-top: -30px;
 }
 
-.experience img{	
+.experience img{
 	width: 97%;
 	border-radius: 2%;
 }
 
-.experience .etoiles img{	
+.experience .etoiles img{
 	width: 25%;
 	margin-top: -10px;
 }
@@ -212,12 +224,20 @@ section {
 /*fin destination */
 
 /*FOOTER*/
+
+.line{
+	width: 110%;
+	height: 1px;
+	background-color: grey;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
 .menu_bottom .logo{
 	width:34px;
 	height:34px;
 }
 
-.center{
+footer .center{
 	display: flex;
 	align-items: center;
 	width: 244px;
@@ -233,7 +253,7 @@ section {
 }
 
 .list-group-item a{
-	color: black;
+	color: grey;
 }
 
 footer{
@@ -242,40 +262,6 @@ footer{
 }
 
 
-.branding{
-	display: flex;
-	justify-content: flex-start;
-}
-
-.test{
-	background-color: red;
-	display: flex;
-	justify-content: flex-end;
-}
-
-.line{
-	width: 110%;
-	height: 1px;
-	background-color: grey;
-	margin-top: 2%;
-	margin-bottom: 2%;
-}
-.ui.menu.bottom {
-
-	border-top: 1px solid grey;
-}
-
-.item svg {
-	height:1.4em;
-	width:1.4em;
-	display: block;
-	fill: rgb(118, 118, 118);
-}
-
-.navbar-nav a:hover{
-	text-decoration: underline;
-}
-
 footer * {
 	background-color: transparent!important;
 }
@@ -283,3 +269,32 @@ footer * {
 footer a {
 	color: grey;
 }
+
+
+
+.ui.menu.bottom {
+
+	border-top: 1px solid grey;
+}
+
+footer .item svg {
+	height:1.4em;
+	width:1.4em;
+	display: block;
+	fill: rgb(118, 118, 118);
+}
+.ui.menu.menu_bottom a{
+	float: right ;
+
+}
+.ui.menu.menu_bottom a:hover{
+	text-decoration: underline;
+
+}
+
+.ui.menu.menu_bottom {
+	border: none;
+	box-shadow:none!important;
+}
+.ui.menu .item::before {
+	background:none !important;
