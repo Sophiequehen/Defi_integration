@@ -14,7 +14,7 @@ section {
 
 .categorie {
 
-background-color: red;
+	background-color: red;
 }
 
 .ui.grid {
@@ -23,54 +23,54 @@ background-color: red;
 }
 
 .column { background-color: yellow;
-	margin:10px;
+	
 }
 /*HEADER*/
 .navbar {
-  margin-top: 10px;
-  margin-left: 8px;
+	margin-top: 10px;
+	margin-left: 8px;
 }
 .navbar-brand {
-  display: flex;
-  justify-content: flex-start;
+	display: flex;
+	justify-content: flex-start;
 }
 .top .logo {
-  height:34px;
-  width:34px;
-  display:block;
-  fill: #FF5A5F;
+	height:34px;
+	width:34px;
+	display:block;
+	fill: #FF5A5F;
 }
 .collapse {
-  display: flex;
-  justify-content: flex-end;
+	display: flex;
+	justify-content: flex-end;
 }
 .nav-item {
-  padding: 0 0.4rem;
-  font-size: 12px;
-  font-weight: 700;
-  margin-right: 6px;
-  margin-top: 3px;
-  letter-spacing: 0.5px;
+	padding: 0 0.4rem;
+	font-size: 12px;
+	font-weight: 700;
+	margin-right: 6px;
+	margin-top: 3px;
+	letter-spacing: 0.5px;
 }
 
 .navbar-nav a:hover {
-  box-sizing: border-box;
-  border-bottom: 2px solid rgb(118, 118, 118);
-  padding-bottom: 2px;
+	box-sizing: border-box;
+	border-bottom: 2px solid rgb(118, 118, 118);
+	padding-bottom: 2px;
 }
 
 /* change the brand and text color */
 .navbar-custom .navbar-text {
-  color: #484848;
+	color: #484848;
 }
 /* change the link color */
 .navbar-custom .navbar-nav .nav-link {
-  color: #484848;
+	color: #484848;
 }
 /* change the color of active or hovered links */
 .navbar-custom .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
-  color: #484848;
+	color: #484848;
 }
 /*CORPS*/
 
@@ -98,7 +98,73 @@ background-color: red;
 .list-group-item a{
 	color: black;
 }
+/*-------------------------------EXPERIENCE------------------------------------------------
+*/
+.experience {
+	background-color: white !important;
+}
 
+.exp .column { 
+	margin: -10px;
+	background-color: white !important;
+
+}
+
+.ui.equal.width.grid.exp{
+	margin-left: -0.4%;
+	margin-right: -0.4%;
+}
+
+
+.entete_exp p{
+	float: right;
+	margin-top: -30px;
+}
+
+.experience img{	
+	width: 97%;
+	border-radius: 2%;
+}
+
+.experience .etoiles img{	
+	width: 25%;
+	margin-top: -10px;
+}
+
+.legexp{
+	color:  rgb(93, 14, 19);
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 0.4px;
+}
+
+.legexp.jaune{
+	color :rgb(210, 148, 42);
+}
+
+.legexp.gris{
+	color :rgb(139, 96, 75);
+}
+
+.titreexp{
+	color: #484848;
+	font-weight: 700;
+	font-size: 19px;
+	line-height: 22px;
+	margin-top: -10px;
+}
+
+.prixexp{
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: 0.2px;
+	color: #484848;
+	margin-top: -15px;
+}
+/*--------------------------------------------------------------------------
+*/
 footer{
 	margin-left: 10%;
 	margin-right: 10%;
