@@ -14,7 +14,7 @@ section {
 
 .categorie {
 
-background-color: red;
+	background-color: red;
 }
 
 .ui.grid {
@@ -22,57 +22,110 @@ background-color: red;
 	margin:10px;
 }
 
-.column { background-color: yellow;
-	margin:10px;
+/*.column { background-color: yellow;
+
 }
 /*HEADER*/
 .navbar {
-  margin-top: 10px;
-  margin-left: 8px;
+	margin-top: 10px;
+	margin-left: 8px;
 }
 .navbar-brand {
-  display: flex;
-  justify-content: flex-start;
+	display: flex;
+	justify-content: flex-start;
 }
 .top .logo {
-  height:34px;
-  width:34px;
-  display:block;
-  fill: #FF5A5F;
+	height:34px;
+	width:34px;
+	display:block;
+	fill: #FF5A5F;
 }
 .collapse {
-  display: flex;
-  justify-content: flex-end;
+	display: flex;
+	justify-content: flex-end;
 }
 .nav-item {
-  padding: 0 0.4rem;
-  font-size: 12px;
-  font-weight: 700;
-  margin-right: 6px;
-  margin-top: 3px;
-  letter-spacing: 0.5px;
+	padding: 0 0.4rem;
+	font-size: 12px;
+	font-weight: 700;
+	margin-right: 6px;
+	margin-top: 3px;
+	letter-spacing: 0.5px;
 }
 
 .navbar-nav a:hover {
-  box-sizing: border-box;
-  border-bottom: 2px solid rgb(118, 118, 118);
-  padding-bottom: 2px;
+	box-sizing: border-box;
+	border-bottom: 2px solid rgb(118, 118, 118);
+	padding-bottom: 2px;
 }
 
 /* change the brand and text color */
 .navbar-custom .navbar-text {
-  color: #484848;
+	color: #484848;
 }
 /* change the link color */
 .navbar-custom .navbar-nav .nav-link {
-  color: #484848;
+	color: #484848;
 }
 /* change the color of active or hovered links */
 .navbar-custom .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
-  color: #484848;
+	color: #484848;
 }
 /*CORPS*/
+
+
+
+
+/* explorer */
+.ui.three.column.grid.explorer
+{
+
+	background-color: white !important;
+	margin-right:25%;
+	margin-left: -1%;
+}
+
+
+.explorer .item.container {
+	background-color: transparent ;
+	border: 1px solid rgba(0,0,0,0.1) !important ;
+	border-radius: 3px ;
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.06) ;
+	margin:2px !important ;
+	height: 72px!important ;
+}
+
+.explorer .item .image  {
+
+
+	width: 96px !important ;
+
+
+}
+.explorer .item img {
+
+	border-bottom-left-radius: 3px !important ;
+	border-top-left-radius: 3px !important ;
+	border-bottom-right-radius: 0px !important ;
+	border-top-right-radius: 0px !important ;
+	height: 71px!important
+}
+
+
+.explorer .middle.aligned.content {
+	color: #484848;
+	padding-left: 2px;
+	vertical-align: middle;
+	font-weight: 700 !important;
+	font-size: 17px !important;
+	line-height: 21px !important;
+}
+}
+/* fin explorer */
+
+
+
 
 /*FOOTER*/
 .menu_bottom .logo{
