@@ -120,9 +120,77 @@ section {
 	font-weight: 700 !important;
 	font-size: 17px !important;
 	line-height: 21px !important;
-} 
+
 }
+
 /* fin explorer */
+/*-------------------------------EXPERIENCE------------------------------------------------
+*/
+.experience {
+	background-color: white !important;
+}
+
+.exp .column { 
+	margin: -10px;
+	background-color: white !important;
+
+}
+
+.ui.equal.width.grid.exp{
+	margin-left: -0.4%;
+	margin-right: -0.4%;
+}
+
+
+.entete_exp p{
+	float: right;
+	margin-top: -30px;
+}
+
+.experience img{	
+	width: 97%;
+	border-radius: 2%;
+}
+
+.experience .etoiles img{	
+	width: 25%;
+	margin-top: -10px;
+}
+
+.legexp{
+	color:  rgb(93, 14, 19);
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 0.4px;
+}
+
+.legexp.jaune{
+	color :rgb(210, 148, 42);
+}
+
+.legexp.gris{
+	color :rgb(139, 96, 75);
+}
+
+.titreexp{
+	color: #484848;
+	font-weight: 700;
+	font-size: 19px;
+	line-height: 22px;
+	margin-top: -10px;
+}
+
+.prixexp{
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: 0.2px;
+	color: #484848;
+	margin-top: -15px;
+}
+/*--------------------------------------------------------------------------
+*/
 
 
 
