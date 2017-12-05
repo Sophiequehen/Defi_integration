@@ -22,8 +22,8 @@ section {
 	margin:10px;
 }
 
-.column { background-color: yellow;
-	
+/*.column { background-color: yellow;
+
 }
 /*HEADER*/
 .navbar {
@@ -74,30 +74,55 @@ section {
 }
 /*CORPS*/
 
-/*FOOTER*/
-.menu_bottom .logo{
-	width:34px;
-	height:34px;
+
+
+
+/* explorer */
+.ui.three.column.grid.explorer
+{
+
+	background-color: white !important;
+	margin-right:25%;
+	margin-left: -1%;
 }
 
-.center{
-	display: flex;
-	align-items: center;
-	width: 244px;
-	height: 48px;
-	margin: 11px;
+
+.explorer .item.container {
+	background-color: transparent ;
+	border: 1px solid rgba(0,0,0,0.1) !important ;
+	border-radius: 3px ;
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.06) ;
+	margin:2px !important ;
+	height: 72px!important ;
 }
 
-.list-group-item{
-	list-style-type: none;
-	background-color: transparent;
-	border: none;
-	color: black;
+.explorer .item .image  {
+
+
+	width: 96px !important ;
+
+
+}
+.explorer .item img {
+
+	border-bottom-left-radius: 3px !important ;
+	border-top-left-radius: 3px !important ;
+	border-bottom-right-radius: 0px !important ;
+	border-top-right-radius: 0px !important ;
+	height: 71px!important
 }
 
-.list-group-item a{
-	color: black;
+
+.explorer .middle.aligned.content {
+	color: #484848;
+	padding-left: 2px;
+	vertical-align: middle;
+	font-weight: 700 !important;
+	font-size: 17px !important;
+	line-height: 21px !important;
 }
+
+/* fin explorer */
 /*-------------------------------EXPERIENCE------------------------------------------------
 */
 .experience {
@@ -165,6 +190,35 @@ section {
 }
 /*--------------------------------------------------------------------------
 */
+
+
+
+
+/*FOOTER*/
+.menu_bottom .logo{
+	width:34px;
+	height:34px;
+}
+
+.center{
+	display: flex;
+	align-items: center;
+	width: 244px;
+	height: 48px;
+	margin: 11px;
+}
+
+.list-group-item{
+	list-style-type: none;
+	background-color: transparent;
+	border: none;
+	color: black;
+}
+
+.list-group-item a{
+	color: black;
+}
+
 footer{
 	margin-left: 10%;
 	margin-right: 10%;
