@@ -20,7 +20,57 @@ background-color: red;
 .col { background-color: yellow;
 	margin:10px;
 }
-#logo{
+/*HEADER*/
+.navbar {
+  margin-top: 10px;
+  margin-left: 8px;
+}
+.navbar-brand {
+  display: flex;
+  justify-content: flex-start;
+}
+.top .logo {
+  height:34px;
+  width:34px;
+  display:block;
+  fill: #FF5A5F;
+}
+.collapse {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-item {
+  padding: 0 0.4rem;
+  font-size: 12px;
+  font-weight: 700;
+  margin-right: 6px;
+  margin-top: 3px;
+  letter-spacing: 0.5px;
+}
+
+.navbar-nav a:hover {
+  box-sizing: border-box;
+  border-bottom: 2px solid rgb(118, 118, 118);
+  padding-bottom: 2px;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-text {
+  color: #484848;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+  color: #484848;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: #484848;
+}
+/*CORPS*/
+
+/*FOOTER*/
+.menu_bottom .logo{
 	width:34px;
 	height:34px;
 }
@@ -84,11 +134,10 @@ footer{
 	text-decoration: underline;
 }
 
-
-.footer * {
-	background-color: transparent;
+footer * {
+	background-color: white;
 }
 
-.footer a {
+footer a {
 	color: grey;
 }
