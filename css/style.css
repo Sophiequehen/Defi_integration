@@ -8,7 +8,6 @@ section {
 }
 
 section{
-	background-color: blue;
 }
 
 .row{
@@ -214,10 +213,22 @@ section{
 }
 /*--------------------------------------------------------------------------
 */
-
-
-
-
+/*debut de destination*/
+.categorie.destination .destination1{
+	width: 200px;
+	
+}
+.categorie.destination .destination2{
+	width: 200px;
+	
+}
+.categorie.destination .destination3{
+	width: 200px;
+}	
+.categorie.destination .destination4{
+	width: 200px;	
+}
+/*fin de destination*/
 /*FOOTER*/
 
 .line{
