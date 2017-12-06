@@ -7,6 +7,18 @@ section {
 	/*background-color: blue ;*/
 }
 
+section{
+	background-color: blue;
+}
+
+.row{
+	background-color: yellow;
+}
+
+.column{
+	background-color: red;
+}
+
 .corps{
 	margin: 0 8%;
 }
@@ -15,10 +27,10 @@ section {
 	/*background-color: red;*/
 }
 
-.ui.grid {
-	/*:background-color: pink;*/
+/*.ui.grid {
+	:background-color: pink;
 	margin:9px;
-}
+}*/
 
 /*.column { background-color: yellow;
 }
@@ -89,13 +101,13 @@ section {
 /*CORPS*/
 
 /* explorer */
-.ui.three.column.grid.explorer
+/*.ui.three.column.grid.explorer
 {
 
 	background-color: white !important;
 	margin-right:25%;
 	margin-left: -1%;
-}
+}*/
 
 
 .explorer .item.container {
@@ -137,14 +149,14 @@ section {
 /* fin explorer */
 /*-------------------------------EXPERIENCE------------------------------------------------
 */
-.experience {
+/*.experience {
 	background-color: white !important;
-}
+}*/
 
 .exp .column {
 	margin: -10px;
-	background-color: white !important;
-
+/*	background-color: white !important;
+*/
 }
 
 .ui.equal.width.grid.exp{
@@ -158,8 +170,8 @@ section {
 	margin-top: -30px;
 }
 
-.experience img{
-	width: 97%;
+.exp img{
+	width: 100%;
 	border-radius: 2%;
 }
 
