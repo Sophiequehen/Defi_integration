@@ -1,49 +1,30 @@
+
+______________________________________________________________
+/* GENERAL */
+
 header  {
 	/*background-color: grey;*/
 	margin: 0 5px;
 }
 
 section {
+	margin: 0 8%;
 	/*background-color: blue ;*/
 }
 
-
-section{
-
-	margin: 0 8%;
-}
-
-
-
-
 .corps{
-	margin: 0 8%;
+	margin: 0 6%;
 }
-h3 {
-	font-weight: 700 !important;
-	margin-bottom: 0px !important;
-	font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
-	font-size: 28px !important;
-	line-height: 32px !important;
-	letter-spacing: -0.6px !important;
-	padding-top: 2px !important;
-	padding-bottom: 2px !important;
-	color: #484848 !important;
-}
-
 
 .categorie {
 	/*background-color: red;*/
 }
 
-/*.ui.grid {
-	:background-color: pink;
-	margin:9px;
-	}*/
-
-/*.column { background-color: yellow;
+.column {
+	/*background-color: yellow;*/
 }
 
+______________________________________________________________
 /*HEADER*/
 
 .header, a ,a:hover {
@@ -106,17 +87,25 @@ h3 {
   padding: 24px;
 }
 
-
-
+______________________________________________________________
 /*CORPS*/
 
-/* explorer */
-
+/*---------EXPLORER---------*/
+h3 {
+	font-weight: 700 !important;
+	margin-bottom: 0px !important;
+	font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+	font-size: 25px !important;
+	line-height: 32px !important;
+	letter-spacing: -0.6px !important;
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+	color: #484848 !important;
+}
 
 .explorer {
 	background-color: white ! important ;
 	font-family: 'Roboto', sans-serif!important;
-
 }
 
 .explorer .grid-x {
@@ -125,9 +114,8 @@ h3 {
 }
 
 .explorer .large-4.medium-4.small-4.cell{
-	padding-left: 0
+	padding-left: 0.7em ;
 }
-
 
 .explorer .box {
 	background-color: transparent ;
@@ -136,26 +124,21 @@ h3 {
 	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.06) ;
 	margin:2px !important ;
 	height: 72px!important ;
+	padding:
 }
 
 .explorer .box .image  {
-
-
 	width: 96px !important;
 	margin-right:5px ;
 }
 
-
 .explorer .box img {
-
-		border-bottom-left-radius: 3px !important ;
-		border-top-left-radius: 3px !important ;
-		border-bottom-right-radius: 0px !important ;
-		border-top-right-radius: 0px !important ;
-		height: 71px!important
-	}
-
-
+	border-bottom-left-radius: 3px !important ;
+	border-top-left-radius: 3px !important ;
+	border-bottom-right-radius: 0px !important ;
+	border-top-right-radius: 0px !important ;
+	height: 71px!important
+}
 
 .explorer .text.float-center {
 	color: #484848;
@@ -165,19 +148,22 @@ h3 {
 	font-size: 17px !important;
 	line-height: 21px !important;
 }
+/* fin explorer */
 
-	/* fin explorer */
-/*-------------------------------EXPERIENCE------------------------------------------------
-*/
-/*.experience {
+/*---------EXPERIENCE---------*/
+.experience {
 	background-color: white !important;
-	}*/
+	margin-left: -1.7em;
+	}
 
+	.logement .grid-x.grid-padding-x.exp{
+		width: 105.5%;
+		margin-left: -2.7%;
+	}
 
 	.grid-x.grid-padding-x.exp{
 		width: 105.5%;
-		margin-left: -2.7%;
-
+		margin-left: -0.7em;
 	}
 
 	.entete_exp p{
@@ -211,12 +197,15 @@ h3 {
 		line-height: 16px;
 		letter-spacing: 0.4px;
 	}
+
 	.legexp.jaune{
 		color :rgb(210, 148, 42);
 	}
+
 	.legexp.gris{
 		color :rgb(139, 96, 75);
 	}
+
 	.titreexp{
 		color: #484848;
 		font-weight: 700;
@@ -224,6 +213,7 @@ h3 {
 		line-height: 22px;
 		margin-top: -10px;
 	}
+
 	.prixexp{
 		font-weight: 300;
 		font-size: 15px;
@@ -232,6 +222,7 @@ h3 {
 		color: #484848;
 		margin-top: -15px;
 	}
+
 	.experience .etoiles img{
 		width: 25%;
 		margin-top: -10px;
@@ -244,40 +235,65 @@ h3 {
 	}
 	.exp .column {
 		margin: -10px;
-/*	background-color: white !important;
-*/
+/*	background-color: white !important;*/
 }
 
-/*--------------------------------------------------------------------------
-*/
-/*debut de destination*/
+/*---------DESTINATION---------*/
+
 .categorie.destination .destination1{
 	width: 200px;
-
 }
+
 .categorie.destination .destination2{
 	width: 200px;
-
 }
+
 .categorie.destination .destination3{
 	width: 200px;
 }
+
 .categorie.destination .destination4{
 	width: 200px;
 }
-/*fin de destination*/
-/*FOOTER*/
 
-.line{
-	width: 110%;
+.destination p {
+	margin: 0px !important;
+	word-wrap: break-word !important;
+	font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+	font-size: 15px !important;
+	line-height: 18px !important;
+	letter-spacing: 0.2px !important;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+	color: #484848 !important;
+	font-weight: 700 !important;
+	display: inline !important;
+}
+
+/*fin de destination*/
+
+______________________________________________________________
+/* FOOTER */
+
+.line {
+	width: 100%;
 	height: 1px;
 	background-color: grey;
 	margin-top: 2%;
 	margin-bottom: 2%;
 }
-.menu_bottom .logo{
-	width:34px;
-	height:34px;
+
+footer {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+footer * {
+	background-color: transparent!important;
+}
+
+footer a {
+	color: grey;
 }
 
 footer .center{
@@ -297,38 +313,27 @@ footer .center{
 	line-height: 1.4;
 }
 
+.list-group-item li{
 
+	margin : -4px;
+	width: 70%;
+}
 
 .list-group-item a{
-
+	line-height: 1.4
 	font-weight: normal !important;
 	word-wrap: break-word !important;
 	font-size: 15px !important;
-	line-height: 18px !important;
 	letter-spacing: 0.2px !important;
 	color: #484848 !important;
+	font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
 }
 
-
-
-footer{
-	margin-left: 10%;
-	margin-right: 10%;
+.list-group-item a:hover{
+	text-decoration: underline;
 }
 
-footer *
-{
-	background-color: transparent!important;
-}
-
-footer a
-{
-	color: grey;
-}
-
-
-footer nav.bar{
-
+footer nav.bar {
 	border-top: 1px solid  #484848;
 }
 
@@ -349,14 +354,15 @@ footer nav {
 	padding-top : 15px;
 }
 
-
-footer .menu.align-right
-{
-	margin-left: 23em;
-	margin-top: -0.5em;
-
+.menu_bottom .logo {
+	width:34px;
+	height:34px;
 }
 
+footer .menu.align-right {
+	margin-left: 23em;
+	margin-top: -0.5em;
+}
 
 footer .menu a {
 	margin:0;
