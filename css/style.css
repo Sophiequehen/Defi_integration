@@ -22,6 +22,18 @@ section{
 .corps{
 	margin: 0 8%;
 }
+h3 {
+	font-weight: 700 !important;
+	margin-bottom: 0px !important;
+	font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+	font-size: 28px !important;
+	line-height: 32px !important;
+	letter-spacing: -0.6px !important;
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+	color: #484848 !important;
+}
+
 
 .categorie {
 	/*background-color: red;*/
@@ -101,52 +113,59 @@ section{
 /*CORPS*/
 
 /* explorer */
-/*.ui.three.column.grid.explorer
-{
 
-	background-color: white !important;
+
+.explorer {
+	background-color: white ! important ;
+	font-family: 'Roboto', sans-serif!important;
+
+}
+
+.explorer .grid-x {
 	margin-right:25%;
-	margin-left: -1%;
-	}*/
+
+}
+.explorer .large-4.medium-4.small-4.cell{ 
+	padding-left: 0
+}
+
+.explorer .box {
+	background-color: transparent ;
+	border: 1px solid rgba(0,0,0,0.1) !important ;
+	border-radius: 3px ;
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.06) ;
+	margin:2px !important ;
+	height: 72px!important ;
+}
+
+.explorer .box .image  {
 
 
-	.explorer .item.container {
-		background-color: transparent ;
-		border: 1px solid rgba(0,0,0,0.1) !important ;
-		border-radius: 3px ;
-		box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.06) ;
-		margin:2px !important ;
-		height: 72px!important ;
-	}
-
-	.explorer .item .image  {
+	width: 96px !important;
+	margin-right:5px ;
+}
 
 
-		width: 96px !important ;
+.explorer .box img {
+
+	border-bottom-left-radius: 3px !important ;
+	border-top-left-radius: 3px !important ;
+	border-bottom-right-radius: 0px !important ;
+	border-top-right-radius: 0px !important ;
+	height: 71px!important
+}
 
 
-	}
-	.explorer .item img {
+.explorer .text.float-center {
+	color: #484848;
+	padding-left: 2px;
+	padding : 25px;
+	font-weight: 700 !important;
+	font-size: 17px !important;
+	line-height: 21px !important;
+}
 
-		border-bottom-left-radius: 3px !important ;
-		border-top-left-radius: 3px !important ;
-		border-bottom-right-radius: 0px !important ;
-		border-top-right-radius: 0px !important ;
-		height: 71px!important
-	}
-
-
-	.explorer .middle.aligned.content {
-		color: #484848;
-		padding-left: 2px;
-		vertical-align: middle;
-		font-weight: 700 !important;
-		font-size: 17px !important;
-		line-height: 21px !important;
-
-	}
-
-	/* fin explorer */
+/* fin explorer */
 /*-------------------------------EXPERIENCE------------------------------------------------
 */
 /*.experience {
@@ -246,19 +265,19 @@ footer .center{
 	border: none;
 	color: black;    
 	font-size: 1.25rem;
-    line-height: 1.4;
+	line-height: 1.4;
 }
 
 
 
 .list-group-item a{
 	
-font-weight: normal !important;
-word-wrap: break-word !important;
-font-size: 15px !important;
-line-height: 18px !important;
-letter-spacing: 0.2px !important;
-color: #484848 !important;
+	font-weight: normal !important;
+	word-wrap: break-word !important;
+	font-size: 15px !important;
+	line-height: 18px !important;
+	letter-spacing: 0.2px !important;
+	color: #484848 !important;
 }
 
 
