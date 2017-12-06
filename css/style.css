@@ -24,74 +24,7 @@ section {
 	/*background-color: yellow;*/
 }
 
-______________________________________________________________
-/*HEADER*/
-
-.header, a ,a:hover {
-	font-family: Roboto, sans-serif;
-	color: #484848
-}
-.header .logo {
-  height:34px;
-  width:34px;
-  display:block;
-  fill: #FF5A5F;
-  margin-left: -4px;
-}
-.header .grid-container {
-  margin-top: 10px;
-  margin-left: 8px;
-}
-.header .grid-container a {
-	padding: 0 10px;
-  font-size: 12px;
-  font-weight: 600;
-  margin-right: 1px;
-  margin-top: 3px;
-  line-height: 20px;
-  letter-spacing: 0.5px;
-}
-.header .grid-container a:hover {
- 	border-bottom: 2px solid rgb(118, 118, 118);
-  padding-bottom: 2px;
-  box-sizing: border-box;
-}
-.header .menu {
-  text-align: right;
-  margin-top: 9px;
-  word-spacing: 6px;
-}
-.header .align-right {
-  padding: 0 0.4rem;
-  font-size: 12px;
-  font-weight: 700;
-  margin-right: 6px;
-  margin-top: 3px;
-  letter-spacing: 0.5px;
-}
-
-.jumbotron {
-	margin:60px 150px;
-}
-.grid-y {
-	width: 80%;
-
-}
-.input-group {
-  width: 100%;
-}
-
-.input-group .input-group-button .button {
-  font-size: 0.8rem;
-  background-color: red;
-  padding: 24px;
-}
-
-______________________________________________________________
-/*CORPS*/
-
-/*---------EXPLORER---------*/
-h3 {
+* h3 {
 	font-weight: 700 !important;
 	margin-bottom: 0px !important;
 	font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
@@ -101,7 +34,84 @@ h3 {
 	padding-top: 2px !important;
 	padding-bottom: 2px !important;
 	color: #484848 !important;
+	
 }
+______________________________________________________________
+/*HEADER*/
+
+.header, a ,a:hover {
+	font-family: Roboto, sans-serif;
+	color: #484848
+}
+
+.header .logo {
+	height:34px;
+	width:34px;
+	display:block;
+	fill: #FF5A5F;
+	margin-left: -4px;
+}
+
+.header .grid-container {
+	margin-top: 10px;
+	margin-left: 8px;
+}
+
+.header .grid-container a {
+	padding: 0 10px;
+	font-size: 12px;
+	font-weight: 600;
+	margin-right: 1px;
+	margin-top: 3px;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+}
+
+.header .grid-container a:hover {
+	border-bottom: 2px solid rgb(118, 118, 118);
+	padding-bottom: 2px;
+	box-sizing: border-box;
+}
+
+.header .menu {
+	text-align: right;
+	margin-top: 9px;
+	word-spacing: 6px;
+}
+
+.header .align-right {
+	padding: 0 0.4rem;
+	font-size: 12px;
+	font-weight: 700;
+	margin-right: 6px;
+	margin-top: 3px;
+	letter-spacing: 0.5px;
+}
+
+.jumbotron {
+	margin:60px 150px;
+}
+
+.grid-y {
+	width: 80%;
+
+}
+
+.input-group {
+	width: 100%;
+}
+
+.input-group .input-group-button .button {
+	font-size: 0.8rem;
+	background-color: red;
+	padding: 24px;
+}
+
+______________________________________________________________
+/*CORPS*/
+
+/*---------EXPLORER---------*/
+
 
 .explorer {
 	background-color: white ! important ;
@@ -154,88 +164,89 @@ h3 {
 .experience {
 	background-color: white !important;
 	margin-left: -1.7em;
-	}
+}
 
-	.logement .grid-x.grid-padding-x.exp{
-		width: 105.5%;
-		margin-left: -2.7%;
-	}
+.logement .grid-x.grid-padding-x.exp{
+	width: 105.5%;
+	margin-left: -2.7%;
+}
 
-	.grid-x.grid-padding-x.exp{
-		width: 105.5%;
-		margin-left: -0.7em;
-	}
+.grid-x.grid-padding-x.exp{
+	width: 105.5%;
+	margin-left: -0.7em;
+}
 
-	.entete_exp p{
-		float: right;
-		margin-top: -30px;
-	}
+.entete_exp p{
+	float: right;
+	margin-top: -30px;
+}
 
-	.titreentete{
-		font-weight: 700;
-		font-size: 28;
-		line-height: 32;
-		letter-spacing: -0.6px;
-		padding-top: 2px;
-		padding-bottom: 2px;
-		color: #484848;
-	}
+.titreentete{
+	font-weight: 700;
+	font-size: 28;
+	line-height: 32;
+	letter-spacing: -0.6px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: #484848;
+}
 
-	.experience .cell{
-		/*background-color: pink;*/
-	}
+.experience .cell{
+	/*background-color: pink;*/
+}
 
-	.exp img{
-		width: 100%;
-		border-radius: 2%;
-	}
+.exp img{
+	width: 100%;
+	border-radius: 2%;
+}
 
-	.legexp{
-		color:  rgb(93, 14, 19);
-		font-weight: 700;
-		font-size: 12px;
-		line-height: 16px;
-		letter-spacing: 0.4px;
-	}
+.legexp{
+	color:  rgb(93, 14, 19);
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 0.4px;
+}
 
-	.legexp.jaune{
-		color :rgb(210, 148, 42);
-	}
+.legexp.jaune{
+	color :rgb(210, 148, 42);
+}
 
-	.legexp.gris{
-		color :rgb(139, 96, 75);
-	}
+.legexp.gris{
+	color :rgb(139, 96, 75);
+}
 
-	.titreexp{
-		color: #484848;
-		font-weight: 700;
-		font-size: 19px;
-		line-height: 22px;
-		margin-top: -10px;
-	}
+.titreexp{
+	color: #484848;
+	font-weight: 700;
+	font-size: 19px;
+	line-height: 22px;
+	margin-top: -10px;
+}
 
-	.prixexp{
-		font-weight: 300;
-		font-size: 15px;
-		line-height: 18px;
-		letter-spacing: 0.2px;
-		color: #484848;
-		margin-top: -15px;
-	}
+.prixexp{
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: 0.2px;
+	color: #484848;
+	margin-top: -15px;
+}
 
-	.experience .etoiles img{
-		width: 25%;
-		margin-top: -10px;
-	}
+.experience .etoiles img{
+	width: 25%;
+	margin-top: -10px;
+}
 
-	.orbit-container.slide{
-		background-color: blue;
-		width: auto;
-		height: auto;
-	}
-	.exp .column {
-		margin: -10px;
-/*	background-color: white !important;*/
+.orbit-container.slide{
+	background-color: blue;
+	width: auto;
+	height: auto;
+}
+
+.exp .column {
+	margin: -10px;
+	
 }
 
 /*---------DESTINATION---------*/
@@ -296,7 +307,7 @@ footer a {
 	color: grey;
 }
 
-footer .center{
+footer .center {
 	display: flex;
 	align-items: center;
 	width: 244px;
